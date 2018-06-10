@@ -1,0 +1,27 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+div.gutenberg__editor .btn  {
+  padding: 15px 45px 5px 45px;
+  background: transparent;
+  max-width: 100%;
+  font-family: 'Oswald', sans-serif;
+  color: #060808;
+  text-decoration: none;
+  border: 2px solid #060808;
+  border-radius: 0;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  white-space: normal;
+  text-align: center;
+}
+div.gutenberg__editor .btn textarea{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .1em;  
+}

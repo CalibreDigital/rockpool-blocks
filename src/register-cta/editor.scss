@@ -1,0 +1,28 @@
+div.register-background aside{
+  padding: 15px;
+  height: 100%;
+  background-color: transparentize(#dfdfdf, 0.8);
+  text-align: center;
+}
+
+div.register-background aside textarea{
+  background: none !important;
+  font-family: Oswald !important;
+  color: #C10933;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center;
+}
+
+div.btn.btn-virtual{
+  margin: 20px auto;
+  max-width: 200px;
+  opacity: 0.1;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  pointer-events: none;
+}

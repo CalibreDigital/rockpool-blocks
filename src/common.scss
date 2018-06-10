@@ -1,0 +1,38 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+// Colors.
+$black: rgb(41, 41, 41);
+$white: #f4f4f4;
+$gray: #dedede;
+$green: #bada55;
+$red: orangered;
+
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5{
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf");
+}
+
+.blocks-rich-text__tinymce.mce-content-body{
+  font-family: Gidole, sans-serif;
+}
+
+.editor-post-title .editor-post-title__input{
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}

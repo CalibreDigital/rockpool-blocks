@@ -1,0 +1,51 @@
+div.dark-image-background aside{
+  padding: 15px;
+  height: 100%;
+  background-color: transparentize(#505252, 0.8);
+}
+
+.centred{
+  text-align: center !important;
+}
+
+div.dark-image-background aside .centred textarea{
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center;
+}
+
+div.dark-image-background section.columns{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+div.dark-image-background section.columns div{
+  flex: 1;
+  text-align: center;
+  margin: 7px;
+  border: 1.5px solid transparentize(white, 0.7);
+}
+
+div.dark-image-background section.columns div textarea:last-of-type{
+  font-size: 0.9em !important;
+  opacity: 0.8;
+  text-align: center;
+  font-family: Gidole, sans-serif;
+  background-color: rgba(0,0,0,0)
+}
+div.dark-image-background section.columns div textarea:first-of-type{
+  font-weight: 700;
+  font-family: Oswald;
+  text-transform: uppercase;
+}
+
+div.dark-image-background section.columns div textarea{
+  text-align: center;
+  background-color: rgba(0,0,0,0)
+}

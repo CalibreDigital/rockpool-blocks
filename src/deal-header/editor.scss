@@ -1,0 +1,63 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+div.image-and-text{
+  display: flex;
+  flex-direction: row;
+}
+
+div.image-and-text aside{
+  flex: 1;
+  max-width: 50%;
+}
+
+div.image-and-text aside div.bg{
+  padding: 15px;
+  height: 100%
+}
+
+div.image-and-text aside textarea{
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+}
+
+div.image-and-text aside *::placeholder{
+  opacity: 0.3;
+}
+
+.blocks-rich-text__tinymce.mce-content-body::placeholder{
+  opacity: 0.3;
+}
+
+
+div.image-and-text aside:first-of-type div.bg{
+  background-color: transparentize(#dfdfdf, 0.8);
+}
+
+div.image-and-text aside:last-of-type div.bg{
+  background-color: transparentize(#505252, 0.8);
+}
+
+small{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-size: 13px;
+  color: #8f98a1;
+  cursor: pointer;
+}
+
+small span.dashicons{
+  color: #8f98a1;
+  font-size: 1.7em;
+  line-height: 33px;
+  width: 22px;
+  margin-right: 8px;
+}

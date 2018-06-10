@@ -1,0 +1,68 @@
+div.detail-section aside{
+  padding: 15px;
+  height: 100%;
+  background-color: transparentize(#dfdfdf, 0.8);
+}
+
+.centred{
+  text-align: center !important;
+}
+
+div.detail-section aside .centred textarea{
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center;
+}
+
+div.detail-section section.columns{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+div.detail-section section.columns:last-of-type div.box{
+  flex: 1;
+  width: 33.33%;
+  text-align: left;
+  margin: 7px;
+  // border: 1.5px solid transparentize(white, 0.7);
+}
+
+div.detail-section section.columns:first-of-type div.box{
+  flex: 1;
+  width: 50%;
+  text-align: left;
+  margin: 7px;
+  // border: 1.5px solid transparentize(white, 0.7);
+}
+
+div.box div.blocks-url-input, div.box div.blocks-url-input input {
+  max-width: 100%;
+}
+
+div.detail-section section.columns div.box{
+  flex: 1;
+  text-align: left;
+  margin: 7px;
+  // border: 1.5px solid transparentize(white, 0.7);
+}
+
+div.detail-section section.columns div.blocks-rich-text__tinymce.mce-content-body,
+div.detail-section section.columns div.blocks-rich-text,
+div.detail-section section.columns div.blocks-rich-text__tinymce{
+  margin: 0px;
+  font-family: Gidole, sans-serif;
+}
+
+div.detail-section section.columns div textarea{
+  text-align: left;
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba(0,0,0,0)
+}

@@ -1,0 +1,1312 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.rockpool-motif {
+  max-width: 50px;
+  margin: 0 auto;
+  text-align: center; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.coloured-background aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(6, 8, 8, 0.2);
+  text-align: center; }
+
+div.coloured-background aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center; }
+
+div.btn {
+  margin: 10px auto; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+div.gutenberg__editor .btn {
+  padding: 15px 45px 5px 45px;
+  background: transparent;
+  max-width: 100%;
+  font-family: 'Oswald', sans-serif;
+  color: #060808;
+  text-decoration: none;
+  border: 2px solid #060808;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  white-space: normal;
+  text-align: center; }
+
+div.gutenberg__editor .btn textarea {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .1em; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+div.gutenberg__editor .btn {
+  padding: 15px 45px 5px 45px;
+  background: transparent;
+  max-width: 100%;
+  font-family: 'Oswald', sans-serif;
+  color: #060808;
+  text-decoration: none;
+  border: 2px solid #060808;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  white-space: normal;
+  text-align: center; }
+
+div.gutenberg__editor .btn textarea {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .1em; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+div.learn-more span {
+  font-family: Gidole, sans-serif !important;
+  color: #C10933;
+  font-weight: bold; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+img.icon {
+  max-width: 70px;
+  max-height: 70px;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  text-align: center; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+div.half-and-half {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+div.half-and-half aside {
+  -ms-flex: 1;
+      flex: 1;
+  max-width: 50%; }
+
+div.half-and-half aside div.bg {
+  padding: 15px;
+  height: 100%; }
+
+div.half-and-half aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em; }
+
+div.half-and-half aside *::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+div.half-and-half aside *:-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.half-and-half aside *::-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.half-and-half aside *::placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body:-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::placeholder {
+  opacity: 0.3; }
+
+div.half-and-half aside:first-of-type div.bg {
+  background-color: rgba(193, 9, 51, 0.2); }
+
+div.half-and-half aside:last-of-type div.bg {
+  background-color: rgba(80, 82, 82, 0.2); }
+
+small {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-size: 13px;
+  color: #8f98a1;
+  cursor: pointer; }
+
+small span.dashicons {
+  color: #8f98a1;
+  font-size: 1.7em;
+  line-height: 33px;
+  width: 22px;
+  margin-right: 8px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+div.image-and-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+div.image-and-text aside {
+  -ms-flex: 1;
+      flex: 1;
+  max-width: 50%; }
+
+div.image-and-text aside div.bg {
+  padding: 15px;
+  height: 100%; }
+
+div.image-and-text aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em; }
+
+div.image-and-text aside *::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text aside *:-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text aside *::-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text aside *::placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body:-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::placeholder {
+  opacity: 0.3; }
+
+div.image-and-text aside:first-of-type div.bg {
+  background-color: rgba(223, 223, 223, 0.2); }
+
+div.image-and-text aside:last-of-type div.bg {
+  background-color: rgba(80, 82, 82, 0.2); }
+
+small {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-size: 13px;
+  color: #8f98a1;
+  cursor: pointer; }
+
+small span.dashicons {
+  color: #8f98a1;
+  font-size: 1.7em;
+  line-height: 33px;
+  width: 22px;
+  margin-right: 8px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+div.image-and-text-reversed {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+div.image-and-text-reversed aside {
+  -ms-flex: 1;
+      flex: 1;
+  max-width: 50%; }
+
+div.image-and-text-reversed aside div.bg {
+  padding: 15px;
+  height: 100%; }
+
+div.image-and-text-reversed aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em; }
+
+div.image-and-text-reversed aside *::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text-reversed aside *:-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text-reversed aside *::-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text-reversed aside *::placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body:-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::placeholder {
+  opacity: 0.3; }
+
+div.image-and-text-reversed aside:last-of-type div.bg {
+  background-color: rgba(223, 223, 223, 0.2); }
+
+div.image-and-text-reversed aside:first-of-type div.bg {
+  background-color: rgba(80, 82, 82, 0.2); }
+
+small {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-size: 13px;
+  color: #8f98a1;
+  cursor: pointer; }
+
+small span.dashicons {
+  color: #8f98a1;
+  font-size: 1.7em;
+  line-height: 33px;
+  width: 22px;
+  margin-right: 8px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.highlights {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+div.highlights aside {
+  -ms-flex: 1;
+      flex: 1;
+  max-width: 33.33%;
+  text-align: center; }
+
+div.highlights aside::before, div.highlights aside::after {
+  content: "";
+  width: 30%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 20px auto; }
+
+div.highlights aside textarea.stat {
+  font-family: Gidole, sans-serif !important;
+  font-weight: normal;
+  color: #C10933 !important;
+  font-size: 2.5em !important;
+  text-align: center; }
+
+div.highlights aside textarea.caption {
+  font-family: Gidole, sans-serif !important;
+  text-align: center; }
+
+div.highlights aside textarea::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+div.highlights aside textarea:-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.highlights aside textarea::-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.highlights aside textarea::placeholder {
+  opacity: 0.3; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+div.image-and-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+div.image-and-text aside {
+  -ms-flex: 1;
+      flex: 1;
+  max-width: 50%; }
+
+div.image-and-text aside div.bg {
+  padding: 15px;
+  height: 100%; }
+
+div.image-and-text aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em; }
+
+div.image-and-text aside *::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text aside *:-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text aside *::-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text aside *::placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body:-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::placeholder {
+  opacity: 0.3; }
+
+div.image-and-text aside:first-of-type div.bg {
+  background-color: rgba(223, 223, 223, 0.2); }
+
+div.image-and-text aside:last-of-type div.bg {
+  background-color: rgba(80, 82, 82, 0.2); }
+
+small {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-size: 13px;
+  color: #8f98a1;
+  cursor: pointer; }
+
+small span.dashicons {
+  color: #8f98a1;
+  font-size: 1.7em;
+  line-height: 33px;
+  width: 22px;
+  margin-right: 8px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.image-background aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(193, 9, 51, 0.2); }
+
+div.image-background aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.coloured-background aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(6, 8, 8, 0.2);
+  text-align: center; }
+
+div.coloured-background aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center; }
+
+div.btn {
+  margin: 10px auto; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.light-grey-background aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(223, 223, 223, 0.2);
+  text-align: center; }
+
+div.light-grey-background aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #C10933;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center; }
+
+div.light-grey-background aside textarea:first-of-type {
+  color: #C10933 !important; }
+
+div.btn {
+  margin: 10px auto; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+div.image-and-text-reversed {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+div.image-and-text-reversed aside {
+  -ms-flex: 1;
+      flex: 1;
+  max-width: 50%; }
+
+div.image-and-text-reversed aside div.bg {
+  padding: 15px;
+  height: 100%; }
+
+div.image-and-text-reversed aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em; }
+
+div.image-and-text-reversed aside *::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text-reversed aside *:-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text-reversed aside *::-ms-input-placeholder {
+  opacity: 0.3; }
+
+div.image-and-text-reversed aside *::placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body:-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::-ms-input-placeholder {
+  opacity: 0.3; }
+
+.blocks-rich-text__tinymce.mce-content-body::placeholder {
+  opacity: 0.3; }
+
+div.image-and-text-reversed aside:last-of-type div.bg {
+  background-color: rgba(223, 223, 223, 0.2); }
+
+div.image-and-text-reversed aside:first-of-type div.bg {
+  background-color: rgba(80, 82, 82, 0.2); }
+
+small {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-size: 13px;
+  color: #8f98a1;
+  cursor: pointer; }
+
+small span.dashicons {
+  color: #8f98a1;
+  font-size: 1.7em;
+  line-height: 33px;
+  width: 22px;
+  margin-right: 8px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.register-background aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(223, 223, 223, 0.2);
+  text-align: center; }
+
+div.register-background aside textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #C10933;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center; }
+
+div.btn.btn-virtual {
+  margin: 20px auto;
+  max-width: 200px;
+  opacity: 0.1;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  pointer-events: none; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.red-image-background aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(193, 9, 51, 0.2); }
+
+.centred {
+  text-align: center !important; }
+
+div.red-image-background aside .centred textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center; }
+
+div.red-image-background section.columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin-top: 20px; }
+
+div.red-image-background section.columns div {
+  -ms-flex: 1;
+      flex: 1;
+  text-align: center;
+  margin: 7px;
+  border: 1.5px solid rgba(255, 255, 255, 0.3); }
+
+div.red-image-background section.columns div textarea:last-of-type {
+  font-size: 0.9em !important;
+  opacity: 0.8;
+  text-align: center;
+  font-family: Gidole, sans-serif;
+  background-color: transparent; }
+
+div.red-image-background section.columns div textarea:first-of-type {
+  font-weight: 700;
+  font-family: Oswald;
+  text-transform: uppercase; }
+
+div.red-image-background section.columns div textarea {
+  text-align: center;
+  background-color: transparent; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.dark-image-background aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(80, 82, 82, 0.2); }
+
+.centred {
+  text-align: center !important; }
+
+div.dark-image-background aside .centred textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center; }
+
+div.dark-image-background section.columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin-top: 20px; }
+
+div.dark-image-background section.columns div {
+  -ms-flex: 1;
+      flex: 1;
+  text-align: center;
+  margin: 7px;
+  border: 1.5px solid rgba(255, 255, 255, 0.3); }
+
+div.dark-image-background section.columns div textarea:last-of-type {
+  font-size: 0.9em !important;
+  opacity: 0.8;
+  text-align: center;
+  font-family: Gidole, sans-serif;
+  background-color: transparent; }
+
+div.dark-image-background section.columns div textarea:first-of-type {
+  font-weight: 700;
+  font-family: Oswald;
+  text-transform: uppercase; }
+
+div.dark-image-background section.columns div textarea {
+  text-align: center;
+  background-color: transparent; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.value-background aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(80, 80, 80, 0.2); }
+
+.centred {
+  text-align: center !important; }
+
+div.value-background aside .centred textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center; }
+
+div.value-background section.columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin-top: 20px; }
+
+div.value-background section.columns div {
+  -ms-flex: 1;
+      flex: 1;
+  text-align: center;
+  margin: 5px;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  padding: 10px; }
+
+div.value-background section.columns div textarea:last-of-type {
+  font-size: 0.9em !important;
+  background-color: transparent;
+  opacity: 0.8;
+  text-align: left;
+  font-weight: 400;
+  font-family: Gidole, sans-serif;
+  text-transform: none; }
+
+div.value-background section.columns div textarea {
+  text-align: left;
+  background-color: transparent;
+  font-family: Oswald;
+  text-transform: uppercase; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.gutenberg__editor div.editor-block-list__layout h1,
+div.gutenberg__editor div.editor-block-list__layout h2,
+div.gutenberg__editor div.editor-block-list__layout h3,
+div.gutenberg__editor div.editor-block-list__layout h4,
+div.gutenberg__editor div.editor-block-list__layout h5 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+@font-face {
+  font-family: Gidole;
+  src: url("/wp-content/themes/rockpool-2018/fonts/Gidole-Regular.ttf"); }
+
+.blocks-rich-text__tinymce.mce-content-body {
+  font-family: Gidole, sans-serif; }
+
+.editor-post-title .editor-post-title__input {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+div.detail-section aside {
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(223, 223, 223, 0.2); }
+
+.centred {
+  text-align: center !important; }
+
+div.detail-section aside .centred textarea {
+  background: none !important;
+  font-family: Oswald !important;
+  color: #060808;
+  text-transform: uppercase;
+  font-size: 1.4em !important;
+  height: auto !important;
+  letter-spacing: .15em;
+  text-align: center; }
+
+div.detail-section section.columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin-top: 20px; }
+
+div.detail-section section.columns:last-of-type div.box {
+  -ms-flex: 1;
+      flex: 1;
+  width: 33.33%;
+  text-align: left;
+  margin: 7px; }
+
+div.detail-section section.columns:first-of-type div.box {
+  -ms-flex: 1;
+      flex: 1;
+  width: 50%;
+  text-align: left;
+  margin: 7px; }
+
+div.box div.blocks-url-input, div.box div.blocks-url-input input {
+  max-width: 100%; }
+
+div.detail-section section.columns div.box {
+  -ms-flex: 1;
+      flex: 1;
+  text-align: left;
+  margin: 7px; }
+
+div.detail-section section.columns div.blocks-rich-text__tinymce.mce-content-body,
+div.detail-section section.columns div.blocks-rich-text,
+div.detail-section section.columns div.blocks-rich-text__tinymce {
+  margin: 0px;
+  font-family: Gidole, sans-serif; }
+
+div.detail-section section.columns div textarea {
+  text-align: left;
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: transparent; }
