@@ -25,9 +25,9 @@ import './dark-background/block.js';
 import './light-grey-background/block.js';
 import './image-and-text-button/block.js';
 import './register-cta/block.js';
+import './three-stats-red/block.js';
 import './four-stats-red/block.js';
 import './four-stats-dark/block.js';
 import './three-values/block.js';
 import './details/block.js';
-
-// import './landing-page-form/block.js';
+import './scroll-anchor/block.js';

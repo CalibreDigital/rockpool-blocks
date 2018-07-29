@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, RichText, MediaUpload, UrlInput  } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput, MediaUpload  } = wp.editor;
 // const { Button } = wp.components;
 
 registerBlockType( 'sm/image-and-text-button', {
@@ -76,7 +77,7 @@ registerBlockType( 'sm/image-and-text-button', {
                     placeholder="Button text"
     	            />
     						</div>
-    						<UrlInput
+    						<URLInput
     							onChange={ onChangeHref }
     							value={ href }
     						/>

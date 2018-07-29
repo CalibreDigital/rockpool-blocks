@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
 
 registerBlockType( 'sm/register-button', {
     title: 'Register Button',

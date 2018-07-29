@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, RichText } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
 // const { Button } = wp.components;
 
 registerBlockType( 'sm/four-stats-red', {
@@ -174,7 +175,7 @@ registerBlockType( 'sm/four-stats-red', {
                   <h2>{headline || ""}</h2>
                   <div class="content"><p>{content || ""}</p></div>
                   <div class="row padded padded-40t" id="scrollTrigger-stats">
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-lg-3">
                       <div class="stat-box">
                         <div class="stat-text" id="one">
                           <h1>{stat1 || ""}</h1>
@@ -185,7 +186,7 @@ registerBlockType( 'sm/four-stats-red', {
                         </svg>
                       </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-lg-3">
                       <div class="stat-box">
                         <div class="stat-text" id="two">
                         <h1>{stat2 || ""}</h1>
@@ -196,7 +197,7 @@ registerBlockType( 'sm/four-stats-red', {
                         </svg>
                       </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-lg-3">
                       <div class="stat-box">
                         <div class="stat-text" id="three">
                         <h1>{stat3 || ""}</h1>
@@ -207,7 +208,7 @@ registerBlockType( 'sm/four-stats-red', {
                         </svg>
                       </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-lg-3">
                       <div class="stat-box">
                         <div class="stat-text" id="four">
                         <h1>{stat4 || ""}</h1>

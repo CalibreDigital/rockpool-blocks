@@ -16,6 +16,17 @@ div.coloured-background aside textarea{
   text-align: center;
 }
 
-div.btn{
-  margin: 10px auto;
+// div.btn{
+//   margin: 10px auto;
+// }
+
+div.btn.btn-virtual{
+  margin: 20px auto;
+  max-width: 200px;
+  // opacity: 0.1;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px 20px;
+  // pointer-events: none;
 }

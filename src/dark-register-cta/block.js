@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, RichText} = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
 // const { Button } = wp.components;
 
 registerBlockType( 'sm/dark-register-cta', {
@@ -57,7 +58,7 @@ registerBlockType( 'sm/dark-register-cta', {
                   placeholder="Content"
                   style={ contentStyle }
   	            />
-                <div class="btn">
+                <div className="btn btn-virtual">
     	            <PlainText
     	              onChange={ onChangeButtonText }
     							  value={ buttonText }
@@ -78,7 +79,7 @@ registerBlockType( 'sm/dark-register-cta', {
                 <div class="animate fadein-wait">
                 <h2>{headline || ''}</h2>
                 <div class="content"><p>{content || ''}</p></div>
-                  <a data-toggle="modal" data-target="#registerModal" class="btn white hvr-sweep-to-right">{ buttonText || '' }</a>
+                  <a href="#" data-toggle="modal" data-target="#registerModal" class="btn white hvr-sweep-to-right">{ buttonText || '' }</a>
                 </div>
               </div>
           </div>

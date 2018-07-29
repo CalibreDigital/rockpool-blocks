@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
 const { SelectControl } = wp.components;
 
 registerBlockType( 'sm/icon', {
@@ -39,6 +40,8 @@ registerBlockType( 'sm/icon', {
               { value: '/wp-content/themes/rockpool-2018/img/icon-advisors.svg', label: 'Advisors' },
               { value: '/wp-content/themes/rockpool-2018/img/icon-arrow.svg', label: 'Arrow' },
               { value: '/wp-content/themes/rockpool-2018/img/icon-arrows.svg', label: 'Arrows' },
+              { value: '/wp-content/themes/rockpool-2018/img/icon-percentage.svg', label: 'Percentage' },
+              { value: '/wp-content/themes/rockpool-2018/img/icon-institution.svg', label: 'Institution' },
             ] }
           />
 					</div>

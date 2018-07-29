@@ -1,6 +1,8 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, UrlInput } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
+const { SelectControl } = wp.components;
 
 registerBlockType( 'sm/rockpool-button', {
     title: 'Rockpool Button',
@@ -17,17 +19,26 @@ registerBlockType( 'sm/rockpool-button', {
 					type: 'string',
 					selector: 'a',
 					attribute: 'href',
-				}
+				},
+        newTab: {
+          type: 'string',
+          selector: 'a',
+          attribute: 'target',
+          default: 'true'
+        }
     },
 
     edit( { attributes, className, setAttributes } ) {
-        const { content, isSelected, href } = attributes;
+        const { content, isSelected, href, newTab} = attributes;
 
         function onChangeContent( newContent ) {
             setAttributes( { content: newContent } );
         }
 				function onChangeHref( newHref ) {
             setAttributes( { href: newHref } );
+        }
+        function onChangeNewTab( newNewTab ) {
+            setAttributes( { newTab: newNewTab } );
         }
 
         return (
@@ -39,16 +50,26 @@ registerBlockType( 'sm/rockpool-button', {
 	              isSelected={ isSelected }
 	            />
 						</div>
-						<UrlInput
+						<URLInput
 							onChange={ onChangeHref }
 							value={ href }
 						/>
+
+            <SelectControl
+              value={ newTab || 'blank' }
+              onChange={ onChangeNewTab }
+              options={ [
+                { value: '_blank', label: 'Open in new tab' },
+                { value: '_self', label: 'Open in current tab' },
+              ] }
+            />
+
 					</div>
         );
     },
 
     save( { attributes, className } ) {
-        const { content, href } = attributes;
-        return <a href={ href || "" } className="btn hvr-sweep-to-right">{ content || "" }</a>;
+        const { content, href, newTab } = attributes;
+        return <a href={ href || "" } target={newTab} className="btn hvr-sweep-to-right">{ content || "" }</a>;
     },
 } );

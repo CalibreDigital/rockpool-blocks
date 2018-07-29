@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, RichText, UrlInput } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
 // const { Button } = wp.components;
 
 registerBlockType( 'sm/dark-background', {
@@ -72,7 +73,7 @@ registerBlockType( 'sm/dark-background', {
                     placeholder="Button text"
     	            />
     						</div>
-    						<UrlInput
+    						<URLInput
     							onChange={ onChangeHref }
     							value={ href }
     						/>

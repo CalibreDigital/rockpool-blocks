@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, RichText, MediaUpload } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput, MediaUpload  } = wp.editor;
 // const { Button } = wp.components;
 
 registerBlockType( 'sm/image-and-text', {

@@ -6,7 +6,14 @@
  */
 
 div.learn-more span{
-  font-family: Gidole, sans-serif !important;  
+  font-family: Gidole, sans-serif !important;
   color: #C10933;
   font-weight: bold;
+}
+
+
+label.components-checkbox-control__label{
+  font-family: sans-serif;
+  opacity: 0.75;
+  font-size: 0.8em;
 }

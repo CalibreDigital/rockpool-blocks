@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, RichText, UrlInput  } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
 const { SelectControl } = wp.components;
 
 registerBlockType( 'sm/details', {
@@ -218,7 +219,7 @@ registerBlockType( 'sm/details', {
   	              value={ stat1Caption }
                   placeholder="Content"
   	            />
-                <UrlInput
+                <URLInput
     							onChange={ onChangeStat1Href }
     							value={ stat1Href }
     						/>
@@ -251,7 +252,7 @@ registerBlockType( 'sm/details', {
   	              value={ stat2Caption }
                   placeholder="Content"
   	            />
-                <UrlInput
+                <URLInput
     							onChange={ onChangeStat2Href }
     							value={ stat2Href }
     						/>
@@ -286,7 +287,7 @@ registerBlockType( 'sm/details', {
   	              value={ stat3Caption }
                   placeholder="Content"
   	            />
-                <UrlInput
+                <URLInput
     							onChange={ onChangeStat3Href }
     							value={ stat3Href }
     						/>
@@ -319,7 +320,7 @@ registerBlockType( 'sm/details', {
   	              value={ stat4Caption }
                   placeholder="Content"
   	            />
-                <UrlInput
+                <URLInput
     							onChange={ onChangeStat4Href }
     							value={ stat4Href }
     						/>
@@ -352,7 +353,7 @@ registerBlockType( 'sm/details', {
   	              value={ stat5Caption }
                   placeholder="Content"
   	            />
-                <UrlInput
+                <URLInput
                   onChange={ onChangeStat5Href }
                   value={ stat5Href }
                 />

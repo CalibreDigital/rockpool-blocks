@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source} = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
 // const { Button } = wp.components;
 
 registerBlockType( 'sm/three-values', {
@@ -131,9 +132,9 @@ registerBlockType( 'sm/three-values', {
               <div class="container padded padded-160t padded-80b">
                 <div class="animate fadein-wait">
                   <h1 class="text-center">{headline || ""}</h1>
-                  
+
                   <div class="row padded padded-80t padded padded-80b" id="scrollTrigger-reasons">
-                    <div class="col-md-4" id="one">
+                    <div class="col-lg-4" id="one">
                       <div class="stat-box" >
                         <div class="stat-text">
                           <h2>{stat1 || ""}</h2>
@@ -144,7 +145,7 @@ registerBlockType( 'sm/three-values', {
                       </div>
                       <p>{stat1Caption || ""}</p>
                     </div>
-                    <div class="col-md-4"  id="two">
+                    <div class="col-lg-4"  id="two">
                       <div class="stat-box">
                         <div class="stat-text">
                           <h2>{stat2 || ""}</h2>
@@ -155,7 +156,7 @@ registerBlockType( 'sm/three-values', {
                       </div>
                       <p>{stat2Caption || ""}</p>
                     </div>
-                    <div class="col-md-4" id="three">
+                    <div class="col-lg-4" id="three">
                       <div class="stat-box">
                         <div class="stat-text">
                           <h2>{stat3 || ""}</h2>

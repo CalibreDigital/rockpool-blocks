@@ -1,6 +1,7 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, UrlInput } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
 
 registerBlockType( 'sm/rockpool-brand-motif', {
     title: 'Rockpool Brand Motif',

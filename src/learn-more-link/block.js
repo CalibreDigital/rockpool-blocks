@@ -1,6 +1,8 @@
 import './editor.scss';
 
-const { registerBlockType, PlainText, source, UrlInput } = wp.blocks;
+const { registerBlockType, source } = wp.blocks;
+const { PlainText, RichText, URLInput  } = wp.editor;
+const { CheckboxControl } = wp.components;
 
 registerBlockType( 'sm/learn-more-link', {
     title: 'Learn More Link',
@@ -12,14 +14,22 @@ registerBlockType( 'sm/learn-more-link', {
 					type: 'string',
 					selector: 'a',
 					attribute: 'href',
-				}
+				},
+        newTab: {
+          type: 'string',
+          selector: 'a',
+          attribute: 'data-target'
+        }
     },
 
     edit( { attributes, className, setAttributes } ) {
-        const { isSelected, href } = attributes;
+        const { isSelected, href , newTab} = attributes;
 
 				function onChangeHref( newHref ) {
             setAttributes( { href: newHref } );
+        }
+        function onChangeNewTab( newNewTab ) {
+            setAttributes( { newTab: newNewTab } );
         }
 
         return (
@@ -27,16 +37,23 @@ registerBlockType( 'sm/learn-more-link', {
 						<div class="learn-more">
 	            <span>Learn More  →</span>
 						</div>
-						<UrlInput
+						<URLInput
 							onChange={ onChangeHref }
 							value={ href }
 						/>
+            <CheckboxControl
+              label="New tab?"
+              checked={ newTab }
+              onChange={ onChangeNewTab }
+            />
 					</div>
         );
     },
 
     save( { attributes, className } ) {
-        const { href } = attributes;
-        return <a href={ href || "" } className="textlink learn-more">Learn More →</a>;
+        const { href, newTab } = attributes;
+        return <a href={ href || "" } target={(newTab) ? "blank"  : ""} data-target={newTab} className="textlink learn-more">
+        Learn More →
+        </a>;
     },
 } );
